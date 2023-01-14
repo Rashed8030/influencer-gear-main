@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  img{max-width: 100%;}
+  .container{width: 1440px;
+    margin:auto;}
+
+/* Menubar start */
+.menubar {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 50px;
+    margin-left: 125px;
+  }
+  .logo-left {
+    width: 250px;
+  }
+  .logo-left h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .right-menu {
+    width: 500px;
+  }
+  .right-menu ul {
+    list-style: none;
+    display: flex;
+  }
+  .right-menu li{}
+  .right-menu a {
+    text-decoration: none;
+    color: black;
+    margin-right: 36px;
+  }
+  .fa-solid.fa-magnifying-glass.search {
+    font-size: 25px;
+  }
+  .cart {
+    font-size: 25px;
+  }
+  /* Menubar ends */
+
+
+  /* banner ssection start */
+  .banner-section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right 50px;
+      background-position-x: right;
+    background-position-x: 800px;
+    padding-bottom: 100px;
+  }
+  
+  .left-text {
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 125px;
+  }
+  .left-text h1 {
+    font-size: 52px;
+    color: #3a3a3a;
+  }
+  .left-text p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .primary-btn {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: #E02C6D;
+  }
+  .right-logo {
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 90px;
+  }
+  .right-logo img{}
+
+   /* banner ssection ends */
+
+   /* brand ssection start */
+   .company-logo {
+    width: 1040px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+      margin-bottom: 20px;
+    margin-bottom: 70px;
+  }
+
+ /* brand ssection ends */
+
+  /* cards ssection start */
+ .popular-width{width: 1040px;margin: auto;}
+ .popular-section{}
+ .popular-header{}
+ .popular-header h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+ .popular-card {
+  width: 300px;
+  padding: 17px 12px 0px 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 30px;
+}
+.nine-div {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+ .popular-card img{}
+ .popular-card h3 {
+  font-weight: 500;
+}
+ .popular-card h5{}
+ .popular-card span{}
+ .popular-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.popular-icon {
+  color: orange;
+  margin: 8px 0px;
+}
+.see-more {
+  margin: 25px 25px 80px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #E02C6D;
+}
+/* cards ssection start */
+
+ /* product ssection start */
+ .product-section {
+  margin: 70px 0px;
+  display: flex;
+}
+.leftt-img-section {
+  width: 405px;
+}
+.rightt-text-sextion {
+  width: 620px;
+  margin-left: 100px;
+}
+.rightt-text-sextion h1 {
+  margin: 20px 0px 20px 0px;
+  font-size: 34px;
+}
+.rightt-text-sextion p {
+  margin-bottom: 16px;
+}
+ /* product section ends */
+
+ /* footer ssection start */
+  .main-footer {
+    background: #0A0826;
+    margin-top: 20px;
+  }
+  .footer-section {
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .footer-section h3 {
+    margin-top: 50px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  .footer-section h5 {
+    color: white;
+    font-size: 14px;
+  }
+  .footer-section p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+  .footer-section li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 23px;
+    color: #d7a1a1;
+  }
+.rashed{color: white;}
+ /* footer section ends */
